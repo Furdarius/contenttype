@@ -31,7 +31,7 @@ func main() {
 
 	handler := contenttype.Middleware(mux, "application/json")
 	// Also you can use predefined contenttype middlewares.
-	// Availible middlewares: JSON, HTML, XML, PDF, Text, OctetStream
+	// Available middlewares: JSON, HTML, XML, PDF, Text, OctetStream
 	//
 	// You can change middleware above with:
 	// handler := contenttype.JSON(mux)
@@ -40,7 +40,7 @@ func main() {
 }
 ```
 
-#### Availible middlewares with predefined type:
+#### Available middlewares with predefined type:
 
 ##### JSON
 
