@@ -40,9 +40,9 @@ func main() {
 }
 ```
 
-#### Available middlewares with predefined type:
+### Available middlewares with predefined type:
 
-##### JSON
+#### JSON
 
 JSON middleware set header `Content-Type: application/json`
 
@@ -50,7 +50,7 @@ JSON middleware set header `Content-Type: application/json`
 h := contenttype.JSON(mux)
 ```
 
-##### HTML
+#### HTML
 
 HTML middleware set header `Content-Type: text/html`
 
@@ -58,7 +58,7 @@ HTML middleware set header `Content-Type: text/html`
 h := contenttype.HTML(mux)
 ```
 
-##### XML
+#### XML
 
 XML middleware set header `Content-Type: application/xml`
 
@@ -66,7 +66,7 @@ XML middleware set header `Content-Type: application/xml`
 h := contenttype.XML(mux)
 ```
 
-##### PDF
+#### PDF
 
 PDF middleware set header `Content-Type: application/pdf`
 
@@ -74,7 +74,7 @@ PDF middleware set header `Content-Type: application/pdf`
 h := contenttype.PDF(mux)
 ```
 
-##### Text
+#### Text
 
 Text middleware set header `Content-Type: text/plain`
 
@@ -82,7 +82,7 @@ Text middleware set header `Content-Type: text/plain`
 h := contenttype.Text(mux)
 ```
 
-##### OctetStream
+#### OctetStream
 
 OctetStream middleware set header `Content-Type: application/octet-stream`
 
